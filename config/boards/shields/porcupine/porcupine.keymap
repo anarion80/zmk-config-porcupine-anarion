@@ -279,7 +279,7 @@ ZMK_LAYER(symbols,
 )
 
 ZMK_LAYER(numbers,
-&trans  &trans &trans &trans     &trans    &trans                          &kp LBKT  &kp N7 &kp N8 &kp N9     &kp KP_MINUS    &kp KP_MULTIPLY
+&trans  &trans &trans &trans     &trans    &trans                          &kp LBKT  &kp N7 &kp N8 &kp N9   &kp KP_MULTIPLY &trans
   &trans  &trans &trans &trans     &trans    &trans                          &kp SEMI  &kp N4 &kp N5 &kp N6     &kp EQUAL    &trans
                 &trans &trans &trans     &trans    &trans                    &kp GRAVE &kp N1 &kp N2     &kp N3    &kp KP_DOT
                             &trans &trans &trans &trans    &trans &kp MINUS   &kp KP_PLUS   &kp N0
@@ -296,7 +296,7 @@ ZMK_LAYER(just_taps,
 &lt DEF ESC  &kp Q &kp W &kp E     &kp R    &kp T                          &kp Y     &kp U    &kp I     &kp O   &kp P    &kp BSPC
   &mt LCTRL TAB &kp A &kp S &kp D     &kp F    &kp G                          &kp H     &kp J    &kp K     &kp L   &kp SQT  &kp ENTER
                 &kp Z &kp X &kp C     &kp V    &kp B                          &kp N     &kp M    &kp COMMA &kp DOT &kp FSLH
-                            &lt MEDIA SPACE &lt NAV SPACE &lt NUM TAB &kp DEL    &lt FUN DEL &lt MOUSE BSPC &kp RALT &lt SYM ENTER
+                            &lt_spc MEDIA 0 &lt NAV SPACE SMART_NUM &lt MOUSE DEL    &lt FUN BSPC &kp RALT &smart_shft &kp ENTER
 )
 
 ZMK_LAYER(adjust,
