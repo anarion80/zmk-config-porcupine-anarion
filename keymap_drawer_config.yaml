@@ -11,8 +11,8 @@ draw_config:
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 36
-  combo_h: 36
+  combo_w: 32
+  combo_h: 32
 
   # padding from the edge of cap to top and bottom legends
   small_pad: 4
@@ -360,6 +360,22 @@ draw_config:
     }
     .hold.mdi\:bluetooth {
       translate: 25px -25px;
+    }
+
+    .hold.mdi\:apple-keyboard-option {
+      translate: 0px -10px;
+    }
+
+    .hold.mdi\:apple-keyboard-control {
+      translate: 0px -10px;
+    }
+
+    .hold.mdi\:apple-keyboard-shift {
+      translate: 0px -10px;
+    }
+
+    .hold.mdi\:microsoft-windows {
+      translate: 0px -10px;
     }
 
     /* Outer column + thumb keys */
@@ -757,10 +773,10 @@ parse_config:
       offset: 0.4
     combo_grk:
       align: top
-      offset: 0.4
+      offset: 0.6
     combo_cpgrk:
       align: top
-      offset: 0.8
+      offset: 0
     combo_to_2:
       align: top
     combo_to_3:
