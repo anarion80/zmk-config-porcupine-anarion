@@ -225,8 +225,8 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - '-'
   - '*'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -335,14 +335,14 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-space$$', h: media}
+  - {t: '$$mdi:keyboard-space$$', h: MEDIA}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - {t: '$$mdi:keyboard-tab$$', h: numbers}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: function_keys}
-  - {t: '$$mdi:backspace$$', h: mouse}
+  - {t: '$$mdi:numeric-2-box-multiple-outline$$', h: NUM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - {t: '$$mdi:backspace$$', h: FUN}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', h: symbols}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   adjust:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:transfer-right$$'}
