@@ -1,4 +1,8 @@
-on: [push, pull_request, workflow_dispatch]
+on:
+  workflow_dispatch: # can be triggered manually
+  push:
+    paths:
+      - "config/boards/shields/porcupine/*.*"
 
 jobs:
   build:
