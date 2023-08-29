@@ -18,7 +18,6 @@ jobs:
       install_branch: "main" # branch to install keymap-drawer from
       keymap_patterns: "config/boards/shields/porcupine/*.keymap" # path to the keymaps to parse
       config_path: "keymap_drawer_config.yaml" # config file, ignored if not exists
-      draw_args: "-j porcupine.json"
       output_folder: "img" # path to save produced SVGs
       # commit_message: "Draw: ${{ github.event.head_commit.message }}"
       amend_commit: true # whether to amend the commit or create a new one
