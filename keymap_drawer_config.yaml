@@ -520,6 +520,7 @@ parse_config:
     "&sls 0": "⇧F"
     "&dot_spc": ".⎵⇧"
 
+
     # Mouse
     "&mkp MB1": $$mdi:numeric-1-circle$$
     "&mkp MB2": $$mdi:numeric-2-circle$$
@@ -653,6 +654,10 @@ parse_config:
     SLCK: "Scroll Lock"
     PAUSE_BREAK: "Pause Break"
     C_STOP: $$mdi:stop$$
+    LA(F4): "WIN CLOSE"
+    LC(F4): "TAB CLOSE"
+    LC(LS(TAB)): "◀TAB"
+    LC(TAB): "▶TAB"
 
 
     # Numbers

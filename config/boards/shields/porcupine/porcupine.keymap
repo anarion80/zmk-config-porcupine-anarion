@@ -47,6 +47,10 @@
 };
 
 
+/* Desktop and tab navigation shortcuts */
+#define TAB_RT LC(TAB)
+#define TAB_LT LC(LS(TAB))
+
 /* Homerow mods */
 
 #define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4  // left hand
@@ -251,7 +255,7 @@ ZMK_LAYER(Base,
 )
 
 ZMK_LAYER(Navigation,
-___  ___           ___           &kp LS(TAB)   &swapper      ___                          &kp C_AC_BACK     &kp HOME    &kp UP     &kp PG_UP &kp C_AC_FORWARD &kp C_AC_COPY
+  &kp LA(F4)    &kp TAB_LT    &kp TAB_RT           &kp LS(TAB)   &swapper      &kp LC(F4)                          &kp C_AC_BACK     &kp HOME    &kp UP     &kp PG_UP &kp C_AC_FORWARD &kp C_AC_COPY
   &trans  &sk LGUI      &sk LALT      &sk LCTRL     &sk LSHFT    &trans                          &caps_word     &kp LEFT    &kp DOWN     &kp RIGHT   &kp C_AC_PASTE  &trans
                 &trans &trans &trans     &trans    &trans                    &kp K_APP     &kp END    &kp INS &kp PG_DN &kp C_AC_CUT
                             &trans &trans &trans &trans    &trans &trans   &trans   &trans
