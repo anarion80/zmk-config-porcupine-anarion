@@ -1,5 +1,5 @@
 layers:
-  base:
+  Base:
   - {t: '$$mdi:keyboard-esc$$', h: ADJ}
   - Q
   - W
@@ -42,13 +42,13 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  nav:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  Navigation:
+  - WIN CLOSE
+  - ◀TAB
+  - ▶TAB
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:swap-horizontal$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - TAB CLOSE
   - $$mdi:backburger$$
   - $$mdi:page-first$$
   - $$mdi:arrow-up-bold$$
@@ -85,7 +85,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  mouse:
+  Mouse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -128,7 +128,7 @@ layers:
   - $$mdi:numeric-1-circle$$
   - $$mdi:numeric-2-circle$$
   - {t: '$$mdi:transfer$$', type: trans}
-  media:
+  Media:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -171,7 +171,7 @@ layers:
   - $$mdi:stop$$
   - $$mdi:play-pause$$
   - $$mdi:volume-off$$
-  symbols:
+  Symbols:
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '&'
@@ -214,7 +214,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  numbers:
+  Numbers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -257,7 +257,7 @@ layers:
   - {t: '-', s: _}
   - +
   - {t: '0', s: )}
-  function_keys:
+  Function:
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
   - F7
@@ -300,8 +300,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  just_taps:
-  - {t: '$$mdi:keyboard-esc$$', h: base}
+  Tap-only:
+  - {t: '$$mdi:keyboard-esc$$', h: Base}
   - Q
   - W
   - E
@@ -343,7 +343,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  adjust:
+  Adjust:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:transfer-right$$'}
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:transfer-left$$'}
@@ -356,7 +356,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - base
+  - Base
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -389,117 +389,116 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [3, 4]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [2, 4]
   k: $$mdi:mouse$$
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
   a: top
   o: 0.4
 - p: [14, 15]
   k: $$mdi:keyboard-tab$$
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [15, 16]
   k: $$mdi:repeat$$
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [25, 27]
   k: $$mdi:content-cut$$
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
   a: bottom
   o: 0.3
 - p: [25, 26]
   k: $$mdi:content-copy$$
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [26, 27]
   k: $$mdi:content-paste$$
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [7, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [19, 20]
   k: (
-  l: [base, numbers]
+  l: [Base, Numbers]
 - p: [20, 21]
   k: )
-  l: [base, numbers]
+  l: [Base, Numbers]
 - p: [19, 20]
   k: <
-  l: [nav]
+  l: [Navigation]
 - p: [20, 21]
   k: '>'
-  l: [nav]
+  l: [Navigation]
 - p: [30, 31]
   k: ''
-  l: [base, numbers]
+  l: [Base, Numbers]
 - p: [31, 32]
   k: ''
-  l: [base, numbers]
+  l: [Base, Numbers]
 - p: [30, 31]
   k: '{'
-  l: [nav]
+  l: [Navigation]
 - p: [31, 32]
   k: '}'
-  l: [nav]
+  l: [Navigation]
 - p: [7, 9]
   k: FUN
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
   a: top
-  o: 0.4
+  o: 0.6
 - p: [7, 8, 9]
   k: ⇧F
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
   a: top
-  o: 0.8
 - p: [2, 14]
   k: '@'
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [3, 15]
   k: '#'
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [4, 16]
   k: $
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [5, 17]
   k: '%'
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [14, 25]
   k: '`'
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [15, 26]
   k: \
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [16, 27]
   k: ''
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [17, 28]
   k: '~'
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [6, 18]
   k: ^
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [7, 19]
   k: +
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [8, 20]
   k: '*'
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [9, 21]
   k: '&'
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [18, 29]
   k: _
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [19, 30]
   k: ''
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [20, 31]
   k: /
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
 - p: [21, 32]
   k: '|'
-  l: [base, nav, numbers]
+  l: [Base, Navigation, Numbers]
