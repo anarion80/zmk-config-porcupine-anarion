@@ -1,6 +1,6 @@
 layers:
   Base:
-  - {t: '$$mdi:keyboard-esc$$', h: ADJ}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -34,10 +34,10 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: '$$mdi:keyboard-space$$', h: MEDIA}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MEDIA}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:numeric-2-box-multiple-outline$$', h: NUM}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Mouse}
   - {t: '$$mdi:backspace$$', h: FUN}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
@@ -51,10 +51,10 @@ layers:
   - TAB CLOSE
   - $$mdi:backburger$$
   - $$mdi:page-first$$
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:triangle-small-up$$'}
   - $$mdi:page-next-outline$$
   - $$mdi:forwardburger$$
-  - $$mdi:content-copy$$
+  - {t: '$$mdi:backspace$$', h: '$$mdi:arrow-u-left-top$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -62,10 +62,10 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:alpha-w-box$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:content-paste$$
+  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:triangle-small-down$$'}
+  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
+  - {t: '$$mdi:delete$$', h: '$$mdi:arrow-u-right-top$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:numeric-3-circle$$
   - $$mdi:numeric-1-circle$$
   - $$mdi:numeric-2-circle$$
@@ -191,10 +191,10 @@ layers:
   - ^
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - '!'
@@ -228,10 +228,10 @@ layers:
   - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
   - {t: '4', s: $}
@@ -277,10 +277,10 @@ layers:
   - F6
   - Scroll Lock
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - F10
   - F1
@@ -301,7 +301,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Tap-only:
-  - {t: '$$mdi:keyboard-esc$$', h: Base}
+  - Base
   - Q
   - W
   - E
@@ -335,10 +335,10 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-space$$', h: MEDIA}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MEDIA}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:numeric-2-box-multiple-outline$$', h: NUM}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Mouse}
   - {t: '$$mdi:backspace$$', h: FUN}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
@@ -350,10 +350,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Base
@@ -389,38 +389,38 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [3, 4]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [2, 4]
   k: $$mdi:mouse$$
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
   a: top
   o: 0.4
 - p: [14, 15]
   k: $$mdi:keyboard-tab$$
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [15, 16]
   k: $$mdi:repeat$$
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [25, 27]
   k: $$mdi:content-cut$$
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
   a: bottom
   o: 0.3
 - p: [25, 26]
   k: $$mdi:content-copy$$
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [26, 27]
   k: $$mdi:content-paste$$
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [7, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [19, 20]
   k: (
   l: [Base, Numbers]
@@ -434,10 +434,10 @@ combos:
   k: '>'
   l: [Navigation]
 - p: [30, 31]
-  k: ''
+  k: '['
   l: [Base, Numbers]
 - p: [31, 32]
-  k: ''
+  k: ']'
   l: [Base, Numbers]
 - p: [30, 31]
   k: '{'
@@ -446,59 +446,58 @@ combos:
   k: '}'
   l: [Navigation]
 - p: [7, 9]
-  k: FUN
-  l: [Base, Navigation, Numbers]
+  k: Tap-only
+  l: [Base]
   a: top
-  o: 0.6
-- p: [7, 8, 9]
-  k: ⇧F
-  l: [Base, Navigation, Numbers]
-  a: top
+  o: 0.4
+- p: [1, 13]
+  k: '!'
+  l: [Base, Numbers]
 - p: [2, 14]
   k: '@'
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [3, 15]
   k: '#'
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [4, 16]
   k: $
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [5, 17]
   k: '%'
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [14, 25]
   k: '`'
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [15, 26]
   k: \
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [16, 27]
   k: ''
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [17, 28]
   k: '~'
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [6, 18]
   k: ^
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [7, 19]
   k: +
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [8, 20]
   k: '*'
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [9, 21]
   k: '&'
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [18, 29]
   k: _
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [19, 30]
-  k: ''
-  l: [Base, Navigation, Numbers]
+  k: '-'
+  l: [Base, Numbers]
 - p: [20, 31]
   k: /
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
 - p: [21, 32]
   k: '|'
-  l: [Base, Navigation, Numbers]
+  l: [Base, Numbers]
