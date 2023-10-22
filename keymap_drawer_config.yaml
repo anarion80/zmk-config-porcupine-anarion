@@ -430,15 +430,15 @@ parse_config:
     "&lt FUN BSPC":
       tap: $$mdi:backspace$$
       hold: "FUN"
-    "&lt MOUSE DEL":
+    "&lt MEDIA DEL":
       tap: $$mdi:backspace-reverse-outline$$
-      hold: "MOUSE"
+      hold: "MEDIA"
     "&lt NAV SPACE":
       tap: $$mdi:keyboard-space$$
       hold: "NAV"
-    "&lt_spc MEDIA 0":
+    "&lt_spc NAV 0":
       tap: $$mdi:keyboard-space$$
-      hold: "MEDIA"
+      hold: "NAV"
     "&lt ADJT ESC":
       tap: $$mdi:keyboard-esc$$
       hold: "ADJ"
@@ -464,6 +464,23 @@ parse_config:
       type: backspace
       tap: $$mdi:backspace$$
       shifted: $$mdi:backspace-reverse-outline$$
+
+    "&mt LC(BSPC) BSPC":
+      type: backspace
+      tap: $$mdi:backspace$$
+      hold: $$mdi:arrow-u-left-top$$
+
+    "&mt LC(DEL) DEL":
+      tap: $$mdi:delete$$
+      hold: $$mdi:arrow-u-right-top$$
+
+    "&mt LC(HOME) UP":
+      tap: "$$mdi:arrow-up-bold$$"
+      hold: $$mdi:triangle-small-up$$
+
+    "&mt LC(END) DOWN":
+      tap: "$$mdi:arrow-down-bold$$"
+      hold: $$mdi:triangle-small-down$$
 
     # Bluetooth
     "&bt BT_NXT":
@@ -776,12 +793,12 @@ parse_config:
     combo_mouse:
       align: top
       offset: 0.4
-    combo_grk:
+    combo_tap:
       align: top
-      offset: 0.6
-    combo_cpgrk:
-      align: top
-      offset: 0
+      offset: 0.4
+    # combo_cpgrk:
+    #   align: top
+    #   offset: 0
     combo_to_2:
       align: top
     combo_to_3:
@@ -793,7 +810,7 @@ parse_config:
       align: top
       offset: 0.15
     combo_minus:
-      key:
+      key: "-"
       shifted: "_"
       hold: "-"
     combo_equal:
@@ -805,11 +822,19 @@ parse_config:
       shifted: "|"
       hold: \
     combo_lbkt:
-      key:
+      key: "["
       shifted: "{"
       hold: "["
     combo_rbkt:
-      key:
+      key: "]"
+      shifted: "}"
+      hold: "]"
+    combo_lbrc:
+      key: "{"
+      shifted: "{"
+      hold: "["
+    combo_rbrc:
+      key: "}"
       shifted: "}"
       hold: "]"
     combo_semicolon:
