@@ -255,8 +255,8 @@ ZMK_LAYER(Base,
 )
 
 ZMK_LAYER(Navigation,
-  &kp LA(F4)    &kp TAB_LT    &kp TAB_RT           &kp LS(TAB)   &swapper      &kp LC(F4)                          &kp C_AC_BACK     &kp HOME    NAV_UP     &kp PG_UP &kp C_AC_FORWARD NAV_BSPC
-  &trans  &sk LGUI      &sk LALT      &sk LCTRL     &sk LSHFT    &trans                          &caps_word     NAV_LEFT    NAV_DOWN     NAV_RIGHT   NAV_DEL  &trans
+  &kp LA(F4)    &kp TAB_LT    &kp TAB_RT           &kp LS(TAB)   &swapper      &kp LC(F4)                          &kp C_AC_BACK     &kp HOME    &kp UP     &kp PG_UP &kp C_AC_FORWARD NAV_BSPC
+  &trans  &sk LGUI      &sk LALT      &sk LCTRL     &sk LSHFT    &trans                          &caps_word     &kp LEFT    &kp DOWN     &kp RIGHT   NAV_DEL  &trans
                 &trans &trans &trans     &trans    &trans                    &kp K_APP     &kp END    &kp INS &kp PG_DN &kp C_AC_CUT
                             &trans &trans &trans &trans    &trans &trans   &trans   &trans
 )
