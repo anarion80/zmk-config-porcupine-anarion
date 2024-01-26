@@ -1,4 +1,4 @@
-<svg width="1360" height="4091" viewBox="0 0 1360 4091" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1360" height="4024" viewBox="0 0 1360 4024" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:alpha-w-box">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-alpha-w-box" viewBox="0 0 24 24"><path d="M9,17H15A2,2 0 0,0 17,15V7H15V15H13V8H11V15H9V7H7V15A2,2 0 0,0 9,17M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z" /></svg>
@@ -15,20 +15,11 @@
 <svg id="mdi:arrow-down-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold" viewBox="0 0 24 24"><path d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" /></svg>
 </svg>
-<svg id="mdi:arrow-down-bold-circle">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold-circle" viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,17L17,12H14V8H10V12H7L12,17Z" /></svg>
-</svg>
 <svg id="mdi:arrow-left-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
 </svg>
-<svg id="mdi:arrow-left-bold-circle">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold-circle" viewBox="0 0 24 24"><path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M7,12L12,17V14H16V10H12V7L7,12Z" /></svg>
-</svg>
 <svg id="mdi:arrow-right-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold" viewBox="0 0 24 24"><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg>
-</svg>
-<svg id="mdi:arrow-right-bold-circle">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold-circle" viewBox="0 0 24 24"><path d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M17,12L12,7V10H8V14H12V17L17,12Z" /></svg>
 </svg>
 <svg id="mdi:arrow-u-left-top">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-u-left-top" viewBox="0 0 24 24"><path d="M20 13.5C20 17.09 17.09 20 13.5 20H6V18H13.5C16 18 18 16 18 13.5S16 9 13.5 9H7.83L10.91 12.09L9.5 13.5L4 8L9.5 2.5L10.92 3.91L7.83 7H13.5C17.09 7 20 9.91 20 13.5Z" /></svg>
@@ -38,9 +29,6 @@
 </svg>
 <svg id="mdi:arrow-up-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold" viewBox="0 0 24 24"><path d="M15,20H9V12H4.16L12,4.16L19.84,12H15V20Z" /></svg>
-</svg>
-<svg id="mdi:arrow-up-bold-circle">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold-circle" viewBox="0 0 24 24"><path d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,7L7,12H10V16H14V12H17L12,7Z" /></svg>
 </svg>
 <svg id="mdi:backburger">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-backburger" viewBox="0 0 24 24"><path d="M5,13L9,17L7.6,18.42L1.18,12L7.6,5.58L9,7L5,11H21V13H5M21,6V8H11V6H21M21,16V18H11V16H21Z" /></svg>
@@ -155,12 +143,6 @@
 </svg>
 <svg id="mdi:transfer-right">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer-right" viewBox="0 0 24 24"><path d="M3,8H5V16H3V8M7,8H9V16H7V8M11,8H13V16H11V8M15,19.25V4.75L22.25,12L15,19.25Z" /></svg>
-</svg>
-<svg id="mdi:triangle-small-down">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-triangle-small-down" viewBox="0 0 24 24"><path d="M8 9H16L12 16" /></svg>
-</svg>
-<svg id="mdi:triangle-small-up">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-triangle-small-up" viewBox="0 0 24 24"><path d="M8 15H16L12 8" /></svg>
 </svg>
 <svg id="mdi:usb">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-usb" viewBox="0 0 24 24"><path d="M15,7V11H16V13H13V5H15L12,1L9,5H11V13H8V10.93C8.7,10.56 9.2,9.85 9.2,9C9.2,7.78 8.21,6.8 7,6.8C5.78,6.8 4.8,7.78 4.8,9C4.8,9.85 5.3,10.56 6,10.93V13A2,2 0 0,0 8,15H11V18.05C10.29,18.41 9.8,19.15 9.8,20A2.2,2.2 0 0,0 12,22.2A2.2,2.2 0 0,0 14.2,20C14.2,19.15 13.71,18.41 13,18.05V15H16A2,2 0 0,0 18,13V11H19V7H15Z" /></svg>
@@ -538,7 +520,7 @@ path.combo {
 </style>
 <g transform="translate(0, 0)" class="layer-Base">
 <text x="0" y="0" class="label">Base</text>
-<g transform="translate(0, 32)">
+<g transform="translate(0, 23)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-esc"/>
@@ -691,8 +673,8 @@ path.combo {
 </g>
 <g transform="translate(360, 316)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:backspace-reverse-outline"/>
-<text x="0" y="34" class="key hold">MEDIA</text>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-space"/>
+<text x="0" y="34" class="key hold">Media</text>
 </g>
 <g transform="translate(443, 324) rotate(10.0)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -793,6 +775,7 @@ path.combo {
 <path d="M1080,-23 h74 a6.0,6.0 0 0 1 6.0,6.0 v40" class="combo"/>
 <rect rx="4" ry="4" x="1064" y="-39" width="32" height="32" class="combo"/>
 <text x="1080" y="-23" class="combo tap"><tspan style="font-size: 62%">Tap-only</tspan></text>
+<text x="1080" y="-11" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g class="combo combopos-15">
 <rect rx="4" ry="4" x="104" y="94" width="32" height="32" class="combo"/>
@@ -863,7 +846,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 498)" class="layer-Navigation">
+<g transform="translate(0, 465)" class="layer-Navigation">
 <text x="0" y="0" class="label">Navigation</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
@@ -905,7 +888,6 @@ path.combo {
 <g transform="translate(1080, 40)" class="key keypos-8">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-up-bold"/>
-<use href="#mdi:triangle-small-up" xlink:href="#mdi:triangle-small-up" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:triangle-small-up"/>
 </g>
 <g transform="translate(1160, 50)" class="key keypos-9">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -955,17 +937,14 @@ path.combo {
 <g transform="translate(1000, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-left-bold"/>
-<use href="#mdi:page-first" xlink:href="#mdi:page-first" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:page-first"/>
 </g>
 <g transform="translate(1080, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-down-bold"/>
-<use href="#mdi:triangle-small-down" xlink:href="#mdi:triangle-small-down" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:triangle-small-down"/>
 </g>
 <g transform="translate(1160, 130)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-right-bold"/>
-<use href="#mdi:page-last" xlink:href="#mdi:page-last" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:page-last"/>
 </g>
 <g transform="translate(1240, 150)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1066,7 +1045,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 940)" class="layer-Mouse">
+<g transform="translate(0, 907)" class="layer-Mouse">
 <text x="0" y="0" class="label">Mouse</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
@@ -1099,15 +1078,21 @@ path.combo {
 </g>
 <g transform="translate(1000, 50)" class="key keypos-7">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-left-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 60%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">SCRL_X(-100)</tspan>
+</text>
 </g>
 <g transform="translate(1080, 40)" class="key keypos-8">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-down-bold-circle" xlink:href="#mdi:arrow-down-bold-circle" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-down-bold-circle"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 60%">&amp;mmv</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">MOVE_Y(-1250)</tspan>
+</text>
 </g>
 <g transform="translate(1160, 50)" class="key keypos-9">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-right-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 60%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">SCRL_X(100)</tspan>
+</text>
 </g>
 <g transform="translate(1240, 70)" class="key trans keypos-10">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1151,15 +1136,21 @@ path.combo {
 </g>
 <g transform="translate(1000, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-left-bold-circle" xlink:href="#mdi:arrow-left-bold-circle" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-left-bold-circle"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 60%">&amp;mmv</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">MOVE_X(-1250)</tspan>
+</text>
 </g>
 <g transform="translate(1080, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-up-bold-circle" xlink:href="#mdi:arrow-up-bold-circle" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-up-bold-circle"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 60%">&amp;mmv</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">MOVE_Y(1250)</tspan>
+</text>
 </g>
 <g transform="translate(1160, 130)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-right-bold-circle" xlink:href="#mdi:arrow-right-bold-circle" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-right-bold-circle"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 60%">&amp;mmv</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">MOVE_X(1250)</tspan>
+</text>
 </g>
 <g transform="translate(1240, 150)" class="key trans keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1195,11 +1186,15 @@ path.combo {
 </g>
 <g transform="translate(1000, 210)" class="key keypos-30">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-down-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 60%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">SCRL_Y(-100)</tspan>
+</text>
 </g>
 <g transform="translate(1080, 200)" class="key keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-up-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 60%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">SCRL_Y(100)</tspan>
+</text>
 </g>
 <g transform="translate(1160, 210)" class="key trans keypos-32">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1242,7 +1237,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1382)" class="layer-Media">
+<g transform="translate(0, 1349)" class="layer-Media">
 <text x="0" y="0" class="label">Media</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
@@ -1385,9 +1380,8 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(360, 316)" class="key trans keypos-34">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(360, 316)" class="key held keypos-34">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
 </g>
 <g transform="translate(443, 324) rotate(10.0)" class="key trans keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1419,7 +1413,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1824)" class="layer-Symbols">
+<g transform="translate(0, 1791)" class="layer-Symbols">
 <text x="0" y="0" class="label">Symbols</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
@@ -1597,9 +1591,9 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 2267)" class="layer-Numbers">
+<g transform="translate(0, 2233)" class="layer-Numbers">
 <text x="0" y="0" class="label">Numbers</text>
-<g transform="translate(0, 32)">
+<g transform="translate(0, 23)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
@@ -1916,7 +1910,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 2765)" class="layer-Function">
+<g transform="translate(0, 2698)" class="layer-Function">
 <text x="0" y="0" class="label">Function</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
@@ -2099,12 +2093,13 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 3207)" class="layer-Tap-only">
+<g transform="translate(0, 3140)" class="layer-Tap-only">
 <text x="0" y="0" class="label">Tap-only</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">Base</text>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -2284,7 +2279,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 3649)" class="layer-Adjust">
+<g transform="translate(0, 3582)" class="layer-Adjust">
 <text x="0" y="0" class="label">Adjust</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
@@ -2345,6 +2340,7 @@ path.combo {
 <g transform="translate(40, 150)" class="key keypos-12">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">Base</text>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(120, 150)" class="key trans keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>

@@ -34,7 +34,7 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MEDIA}
+  - {t: '$$mdi:keyboard-space$$', h: Media}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:numeric-2-box-multiple-outline$$', h: NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Mouse}
@@ -51,7 +51,7 @@ layers:
   - TAB CLOSE
   - $$mdi:backburger$$
   - $$mdi:page-first$$
-  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:triangle-small-up$$'}
+  - $$mdi:arrow-up-bold$$
   - $$mdi:page-next-outline$$
   - $$mdi:forwardburger$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:arrow-u-left-top$$', type: backspace}
@@ -62,9 +62,9 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:alpha-w-box$$
-  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
-  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:triangle-small-down$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:delete$$', h: '$$mdi:arrow-u-right-top$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -93,9 +93,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold-circle$$
-  - $$mdi:arrow-right-bold$$
+  - '&msc SCRL_X(-100)'
+  - '&mmv MOVE_Y(-1250)'
+  - '&msc SCRL_X(100)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -105,9 +105,9 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold-circle$$
-  - $$mdi:arrow-up-bold-circle$$
-  - $$mdi:arrow-right-bold-circle$$
+  - '&mmv MOVE_X(-1250)'
+  - '&mmv MOVE_Y(1250)'
+  - '&mmv MOVE_X(1250)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -116,8 +116,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - '&msc SCRL_Y(-100)'
+  - '&msc SCRL_Y(100)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -163,7 +163,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -301,7 +301,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Tap-only:
-  - Base
+  - {t: Base, h: toggle}
   - Q
   - W
   - E
@@ -356,7 +356,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Base
+  - {t: Base, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -446,7 +446,7 @@ combos:
   k: '}'
   l: [Navigation]
 - p: [7, 9]
-  k: Tap-only
+  k: {t: Tap-only, h: toggle}
   l: [Base]
   a: top
   o: 0.4
